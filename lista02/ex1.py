@@ -31,5 +31,9 @@ def aproxPotenciaNumEuler(potencia, qtdMaxIteracoes, tolerancia):
         i += 1
     return resultado
 
-print("Resultado de e^3 com 5 iterações: " + str(aproxPotenciaNumEuler(3, 5, 0.0001)))
-print("Resultado de e^3 com 10 iterações: " + str(aproxPotenciaNumEuler(3, 10, 0.0001)))
+# testes
+n5 = aproxPotenciaNumEuler(3, 5, 0.0001)
+n10 = aproxPotenciaNumEuler(3, 10, 0.0001)
+
+print("Resultado de e^3 com 5 iterações: " + str(round(n5, 4)))
+print("Resultado de e^3 com 10 iterações: " + str(round(n10, 4)))
