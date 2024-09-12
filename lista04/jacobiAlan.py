@@ -163,7 +163,7 @@ lista4exA_matrizCoef = [[3, -1, 1],
 
 lista4exA_termosInd = [1,0,4]
 
-tolerancia = 0.1
+tolerancia = 0.01
 print("\nSolução com tolerância = ", tolerancia, ": ")
 vetorSolucao = [0, 0, 0]
 solucao = metodoJacobi(lista4exA_matrizCoef, lista4exA_termosInd, len(lista4exA_termosInd), vetorSolucao, tolerancia, 30)
@@ -178,7 +178,7 @@ lista4exB_matrizCoef = [[10, -1, 0],
 
 lista4exB_termosInd = [9,7,6]
 
-tolerancia = 0.1
+tolerancia = 0.01
 print("\nSolução com tolerância = ", tolerancia, ": ")
 vetorSolucao = [0, 0, 0]
 solucao = metodoJacobi(lista4exB_matrizCoef, lista4exB_termosInd, len(lista4exB_termosInd), vetorSolucao, tolerancia, 30)
@@ -194,7 +194,7 @@ lista4exC_matrizCoef = [[10, 5, 0, 0],
 
 lista4exC_termosInd = [6, 25, -11, -11]
 
-tolerancia = 0.1
+tolerancia = 0.01
 print("\nSolução com tolerância = ", tolerancia, ": ")
 vetorSolucao = [0, 0, 0, 0]
 solucao = metodoJacobi(lista4exC_matrizCoef, lista4exC_termosInd, len(lista4exC_termosInd), vetorSolucao, tolerancia, 30)
@@ -212,7 +212,7 @@ lista4exD_matrizCoef = [[4, 1, 1, 0, 1],
 
 lista4exD_termosInd = [6, 6, 6, 6, 6]
 
-tolerancia = 0.1
+tolerancia = 0.01
 print("\nSolução com tolerância = ", tolerancia, ": ")
 vetorSolucao = [0, 0, 0, 0, 0]
 solucao = metodoJacobi(lista4exD_matrizCoef, lista4exD_termosInd, len(lista4exD_termosInd), vetorSolucao, tolerancia, 30)
